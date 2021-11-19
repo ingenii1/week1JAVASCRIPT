@@ -5,7 +5,7 @@ const pet =
 {name: "Warrior",
 age: 12,
 
-//Array:[]==>ARRAY DECLARATION.curly brackets
+//Array:[]==>ARRAY DECLARATION.square brackets
 colour:
 ["brown","white","black","blonde"],
 
@@ -19,14 +19,14 @@ console.log (pet.colour[0,3]);//==>print out [(row),(column)]
 console.log (pet.typeOfPet[0,1]);
 
 //FUNTION DECLARATION
-const eating=true;
-const drinking=false;
+let eating=true;
+let drinking=false;
 //<<funtion>>
 const petState=()=>
 {
 if (eating)
 {console.log(`your pet ${pet.name} with ${pet.age} years old, is eating`);
- }
+  eating=false}
 else
 if (drinking)
 {console.log(`your pet ${pet.name} with ${pet.age} years old, is drinking`);
@@ -35,4 +35,3 @@ else
 {console.log("your pet "+(pet.name)+" with "+(pet.age)+" years old is neither drinking nor eating");}
 }
 petState();
-console.log("hello world");

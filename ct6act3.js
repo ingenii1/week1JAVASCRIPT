@@ -18,8 +18,8 @@ const coffeeShop = {
         "Hummus and Bread", 3.75,
     ],
 drinksOrdered(){
-    this.drinks;
-    return Your drinks order is ${this.drinks[4]}:£${this.drinks[5]} and ${this.drinks[8]}:£${this.drinks[9]}.
+    (this.drinks);
+    return `Your drinks order is ${this.drinks[4]}:£${this.drinks[5]} and ${this.drinks[8]}:£${this.drinks[9]`}.
     },
 foodOrdered(){
     this.food;
