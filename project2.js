@@ -1,0 +1,12 @@
+console.log("project 2".toUpperCase());
+console.log("   |   |   ");
+console.log("   |   |   ");
+console.log("   |   |   ");
+console.log("-----------");
+console.log("   |   |   ");
+console.log("   |   |   ");
+console.log("   |   |   ");
+console.log("-----------");
+console.log("   |   |   ");
+console.log("   |   |   ");
+console.log("   |   |   ");
